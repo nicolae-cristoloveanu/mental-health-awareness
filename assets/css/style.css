@@ -1,9 +1,31 @@
 
 
-/* Google Fonts Inter import */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
 
-/* Google Fonts Macondo import */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Macondo&family=Oswald:wght@200..700&display=swap');
+/* Google Fonts Figtree import */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Macondo&family=Oswald:wght@200..700&display=swap');
+
+
+/* Google Fonts Montserrat import */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Macondo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+
+
+:root {
+
+    /* Fonts */
+    --primary-font: 'Figtree', sans-serif;
+    --secondary-font: 'Montserrat', sans-serif;
+
+
+    /* Colors */
+    --primary-color: #C5FFFD; /* dark brown */
+    --secondary-color: #88D9E6; /* light brown */
+    --highlight-color: #8B8BAE; /* blue */
+    --highlight-color-light: #526760; /* light blue */
+    --text-color: #374B4A; /* black */
+
+
+}
+
 
 
