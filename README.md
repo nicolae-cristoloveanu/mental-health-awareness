@@ -2,11 +2,14 @@
 
 A comprehensive website exploring the therapeutic relationship between nature and mental health, integrating psychological research with practical applications for healing and well-being.
 
-![Nature's Way Website](assets/images/butterfly.jpg)
+**Live Site:** [https://nicolae-cristoloveanu.github.io/mental-health-awareness/](https://nicolae-cristoloveanu.github.io/mental-health-awareness/)
+
+[![Nature's Way Website](assets/images/butterfly.jpg)](assets/images/butterfly.jpg)
 
 ## 🌿 Recent Updates & Improvements
 
-### Latest Enhancements (January 2025)
+### Latest Enhancements
+
 - **Sticky Navigation**: Added position sticky to navbar for improved user experience during scrolling
 - **Enhanced Footer Design**: Applied background imagery with nature theme matching the header section
 - **Content Accessibility**: Completely rewrote all website content to be more accessible and less academic, making complex psychological concepts understandable for general audiences
@@ -21,7 +24,7 @@ A comprehensive website exploring the therapeutic relationship between nature an
 This project has been developed with assistance from advanced AI tools:
 - **Claude AI (Anthropic)**: Used for content generation, code optimization, and accessibility improvements
 - **Google Gemini Pro**: Assisted with design decisions, content refinement, and technical implementation
-- **Human oversight**: All AI-generated content has been reviewed and refined to ensure accuracy and appropriateness
+
 
 ## Table Of Contents:
 1. [Project Overview](#project-overview)
@@ -57,24 +60,24 @@ Nature's Way is a mental health awareness website that explores the profound con
 
 The website design was planned using wireframes to establish the layout and user experience across different device sizes:
 
+<a href="assets/images/Nature's%20Way%20-%20Desktop.png">
+  <img src="assets/images/Nature's%20Way%20-%20Desktop.png" alt="Desktop Wireframe" width="400">
+</a>
+<a href="assets/images/Nature's%20Way%20-%20Mobile.png">
+  <img src="assets/images/Nature's%20Way%20-%20Mobile.png" alt="Mobile Wireframe" width="200">
+</a>
+
 #### Desktop Wireframes
 - **Homepage Layout**: Features a hero section with central image surrounded by feature cards, followed by content sections with alternating text and image layouts
 - **Navigation Structure**: Sticky header with logo and horizontal navigation menu
 - **Content Flow**: Logical progression from introduction through detailed sections to contact form
 - **Gallery Section**: Two-column layout with circular images and descriptive text
 
-#### Tablet Wireframes  
-- **Responsive Adaptation**: Content adjusts to tablet dimensions while maintaining visual hierarchy
-- **Image Sizing**: Gallery images scale appropriately for medium-sized screens
-- **Navigation**: Maintains horizontal layout with adjusted spacing
-
 #### Mobile Wireframes
 - **Stacked Layout**: Single-column design for optimal mobile viewing
 - **Collapsible Navigation**: Hamburger menu for space efficiency
 - **Touch-Friendly Elements**: Appropriately sized buttons and interactive elements
 - **Vertical Image Arrangement**: Gallery images stack vertically for mobile screens
-
-The wireframes guided the development of a fully responsive design that provides optimal user experience across all device types.
 
 ### User Stories
 - **As a mental health professional**, I want to access evidence-based information about nature therapy so I can incorporate these techniques into my practice
@@ -88,7 +91,7 @@ The website uses a carefully selected combination of Google Fonts:
 - **Secondary Font**: Montserrat - A geometric sans-serif used for headings and emphasis, providing strong visual hierarchy
 
 ### Colour Scheme
-The color palette reflects the calming, natural theme of the website:
+The color palette reflects the calming, natural theme of the website and was curated using [Coolors.co](https://coolors.co/):
 - **Primary Color**: `#C5FFFD` (Light Cyan) - Represents clarity and freshness
 - **Secondary Color**: `#88D9E6` (Light Blue) - Evokes sky and water elements
 - **Highlight Color**: `#8B8BAE` (Purple/Lavender) - Adds depth and sophistication
@@ -139,12 +142,12 @@ The color palette reflects the calming, natural theme of the website:
 
 ### Articles
 Six themed article cards covering:
-- **Forest Therapy**: The science of forest bathing and Shinrin-yoku practices
-- **Water Healing**: Therapeutic benefits of aquatic environments for emotional processing
-- **Eco-Anxiety**: Understanding and managing climate-related mental health concerns
-- **Nature Wellness**: Comprehensive approaches to mental health awareness
-- **Garden Therapy**: The healing power of gardening and horticultural therapy
-- **Seasonal Changes**: Working with natural rhythms for emotional balance
+- **Forest Therapy**
+- **Water Healing**
+- **Eco-Anxiety**
+- **Nature Wellness**
+- **Garden Therapy**
+- **Seasonal Changes**
 
 ### Contact Form
 - **Professional contact form** for inquiries and consultations
@@ -194,6 +197,7 @@ Six themed article cards covering:
 
 ## Testing
 
+
 ### Cross-Browser Compatibility
 The website has been tested across multiple browsers:
 - Chrome (latest)
@@ -239,32 +243,72 @@ Responsive design verified across device sizes:
 - **Consistent tone**: Maintained professional yet approachable voice throughout
 
 ### Code Validation
+
+#### HTML Validation
 - HTML validated through W3C Markup Validator - ✅ No errors
-- CSS validated through W3C CSS Validator - ✅ No errors  
+
+<a href="assets/images/html-validation.png">
+  <img src="assets/images/html-validation.png" alt="HTML Validation Results" width="400">
+</a>
+
+#### CSS Validation  
+- CSS validated through W3C CSS Validator - ✅ No errors
+
+<a href="assets/images/css-validation.png">
+  <img src="assets/images/css-validation.png" alt="CSS Validation Results" width="400">
+</a>
+
+#### Lighthouse Performance Reports
+The website has been tested using Google Chrome DevTools Lighthouse for performance, accessibility, best practices, and SEO optimization:
+
+**Performance Score:**
+<a href="assets/images/lighthouse-performance.png">
+  <img src="assets/images/lighthouse-performance.png" alt="Lighthouse Performance Report" width="400">
+</a>
+
+**Accessibility Score:**
+<a href="assets/images/lighthouse-accessibility.png">
+  <img src="assets/images/lighthouse-accessibility.png" alt="Lighthouse Accessibility Report" width="400">
+</a>
+
+**Best Practices Score:**
+<a href="assets/images/lighthouse-best-practices.png">
+  <img src="assets/images/lighthouse-best-practices.png" alt="Lighthouse Best Practices Report" width="400">
+</a>
+
+#### Additional Verification
 - All images referenced correctly - ✅ Verified
 - All navigation links functional - ✅ Tested
 
 ## Deployment
 
-The website is deployed using GitHub Pages and can be accessed at: [Live Site URL]
+The website is deployed using GitHub Pages and can be accessed at: [https://nicolae-cristoloveanu.github.io/mental-health-awareness/](https://nicolae-cristoloveanu.github.io/mental-health-awareness/)
 
-### Deployment Steps:
-1. Repository created on GitHub
-2. Code pushed to main branch
-3. GitHub Pages enabled in repository settings
-4. Site automatically deployed from main branch
+### Creating Repository on GitHub
+- First make sure you are signed into [Github](https://github.com/) and go to the code institutes template, which can be found [here](https://github.com/Code-Institute-Org/gitpod-full-template).
+- Then click on **use this template** and select **Create a new repository** from the drop-down. Enter the name for the repository and click **Create repository from template**.
+- Once the repository was created, I clicked the green **gitpod** button to create a workspace in gitpod so that I could write the code for the site.
+
+### Deploying on GitHub Pages
+The site was deployed to GitHub Pages using the following method:
+- Go to the GitHub repository.
+- Navigate to the 'Settings' tab.
+- Scroll down to the 'Pages' section in the left sidebar.
+- Under 'Source', select 'Deploy from a branch'.
+- Using the 'Select branch' dropdown menu, choose 'main'.
+- Click 'Save'.
+- The site will be automatically deployed and the URL will be provided.
 
 ### Local Development:
-1. Clone the repository
+1. VSCode IDE 
 2. Open `index.html` in a web browser
 3. For development, use a local server for optimal testing
-
-## Credits
 
 ### Content
 - Original philosophical content integrating nature and mental health concepts
 - Evidence-based research on attention restoration theory
 - Psychoanalytic perspectives on ecological psychology
+- **Google Gemini - Deep Research**: Research synthesis on the synergy between psychoanalysis and nature therapy, providing foundational theoretical framework and content insights for the therapeutic approach presented on the website
 
 ### Images
 - **Nature Photography**: High-quality imagery sourced from [Unsplash.com](https://unsplash.com/) for authentic natural environments
@@ -280,6 +324,7 @@ The website is deployed using GitHub Pages and can be accessed at: [Live Site UR
 - **Font Awesome**: Comprehensive icon library for social media and interactive elements
 - **CSS Grid and Flexbox**: Modern layout techniques for responsive design
 - **CSS Custom Properties**: Variable system for consistent theming and easy maintenance
+- **Coolors.co**: Color palette generation and curation tool for the website's cohesive natural theme
 
 ### Inspiration
 - Japanese Shinrin-yoku (forest bathing) practices
@@ -287,13 +332,14 @@ The website is deployed using GitHub Pages and can be accessed at: [Live Site UR
 - Biophilia hypothesis by E.O. Wilson
 - Attention Restoration Theory by Kaplan & Kaplan
 
-### Acknowledgments
+### Credits and Acknowledgments
 - **Bootstrap Team**: For providing the comprehensive responsive framework that enabled rapid, professional development
 - **Google Fonts**: For professional typography resources that enhance readability and visual appeal
 - **Unsplash.com**: For providing high-quality, royalty-free nature photography that brings authenticity to the site
 - **Freepik.com**: For vector graphics and design elements that enhance the visual experience
 - **Code Institute**: For educational foundation, project structure guidance, and development best practices
 - **Mental Health Professionals**: Who inspired the therapeutic approach and content accuracy
+- **Google Gemini - Deep Research**: For comprehensive research synthesis on psychoanalysis and nature therapy synergy, providing the theoretical foundation and content references that informed the website's therapeutic approach
 - **Claude AI (Anthropic)**: For development assistance, content generation, accessibility improvements, and code optimization
 - **Google Gemini Pro**: For design guidance, technical implementation support, and content refinement
 - **Open Source Community**: For tools, resources, and frameworks that made this project possible
@@ -301,40 +347,7 @@ The website is deployed using GitHub Pages and can be accessed at: [Live Site UR
 
 ### Development Notes
 This project represents a collaborative effort between human creativity and AI assistance, demonstrating how modern development tools can enhance accessibility and user experience while maintaining professional standards for mental health content.
-
 ---
-
 **Note**: This website is created for educational and awareness purposes. It is not intended as a substitute for professional mental health treatment. Please consult qualified healthcare providers for personalized mental health care.
-### Code Validation
-Validate your code HTML, CSS (all pages/files need to be validated!!!), display screenshots
-### Manual Testing user stories or/and features
-Test all your user stories, you an create table 
-User Story |  Test | Pass
---- | --- | :---:
-paste here you user story | what is visible to the user and what action they should perform | &check;
-- and attach screenshot
 
-## Bugs
-List of bugs and how did you fix them
-
-## Deployment
-
-#### Creating Repository on GitHub
-- First make sure you are signed into [Github](https://github.com/) and go to the code institutes template, which can be found [here](https://github.com/Code-Institute-Org/gitpod-full-template).
-- Then click on **use this template** and select **Create a new repository** from the drop-down. Enter the name for the repository and click **Create repository from template**.
-- Once the repository was created, I clicked the green **gitpod** button to create a workspace in gitpod so that I could write the code for the site.
-#### Deloying on Github
-The site was deployed to Github Pages using the following method:
-- Go to the Github repository.
-- Navigate to the 'settings' tab.
-- Using the 'select branch' dropdown menu, choose 'main'.
-- Click 'save'.
-
-## Credits
-List of used resources for your website (text, images, snippets of code, projects....)
-  - Code & Text Content
-  
-  - Media
-  
-  - Acknowledgment
     
