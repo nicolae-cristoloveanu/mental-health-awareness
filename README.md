@@ -10,8 +10,10 @@ A comprehensive website exploring the therapeutic relationship between nature an
 - **Sticky Navigation**: Added position sticky to navbar for improved user experience during scrolling
 - **Enhanced Footer Design**: Applied background imagery with nature theme matching the header section
 - **Content Accessibility**: Completely rewrote all website content to be more accessible and less academic, making complex psychological concepts understandable for general audiences
-- **Visual Gallery Section**: Added dedicated image gallery with nature-themed content and improved styling
-- **Responsive Improvements**: Enhanced mobile responsiveness across all sections
+- **Visual Gallery Section**: Updated gallery layout from three images to two circular images for better visual balance
+- **Image Optimization**: Implemented responsive image sizing with consistent dimensions across all screen sizes - doubled the vertical height of content section images for greater visual impact
+- **Background Consistency**: Applied matching background colors to gallery and articles sections for visual cohesion
+- **Responsive Improvements**: Enhanced mobile responsiveness across all sections with specific media queries for optimal viewing
 - **Professional Footer Content**: Updated footer with mental health resources, proper disclaimers, and functional navigation links
 - **Typography Consistency**: Standardized font usage and improved readability throughout the site
 
@@ -24,6 +26,7 @@ This project has been developed with assistance from advanced AI tools:
 ## Table Of Contents:
 1. [Project Overview](#project-overview)
 2. [Design & Planning](#design--planning)
+    * [Wireframes](#wireframes)
     * [User Stories](#user-stories)
     * [Typography](#typography)
     * [Colour Scheme](#colour-scheme)
@@ -49,6 +52,29 @@ Nature's Way is a mental health awareness website that explores the profound con
 - **Philosophical Understanding**: Deep insights into the human-nature connection
 
 ## Design & Planning:
+
+### Wireframes
+
+The website design was planned using wireframes to establish the layout and user experience across different device sizes:
+
+#### Desktop Wireframes
+- **Homepage Layout**: Features a hero section with central image surrounded by feature cards, followed by content sections with alternating text and image layouts
+- **Navigation Structure**: Sticky header with logo and horizontal navigation menu
+- **Content Flow**: Logical progression from introduction through detailed sections to contact form
+- **Gallery Section**: Two-column layout with circular images and descriptive text
+
+#### Tablet Wireframes  
+- **Responsive Adaptation**: Content adjusts to tablet dimensions while maintaining visual hierarchy
+- **Image Sizing**: Gallery images scale appropriately for medium-sized screens
+- **Navigation**: Maintains horizontal layout with adjusted spacing
+
+#### Mobile Wireframes
+- **Stacked Layout**: Single-column design for optimal mobile viewing
+- **Collapsible Navigation**: Hamburger menu for space efficiency
+- **Touch-Friendly Elements**: Appropriately sized buttons and interactive elements
+- **Vertical Image Arrangement**: Gallery images stack vertically for mobile screens
+
+The wireframes guided the development of a fully responsive design that provides optimal user experience across all device types.
 
 ### User Stories
 - **As a mental health professional**, I want to access evidence-based information about nature therapy so I can incorporate these techniques into my practice
@@ -89,15 +115,17 @@ The color palette reflects the calming, natural theme of the website:
 ### Content Sections
 
 #### 1. Visual Gallery Section
-- **Nature-themed imagery** with forest, water, and mountain themes
-- **Interactive hover effects** on gallery images
-- **Centered content layout** with accessible explanatory text
-- **Rounded borders** consistent with site design language
+- **Two-column nature imagery** with forest and mountain themes for balanced composition
+- **Perfectly circular images** with consistent 250px dimensions and hover effects
+- **Responsive design** that adapts from side-by-side layout to stacked on mobile devices
+- **Accessible explanatory text** focusing on practical benefits rather than academic theory
+- **Enhanced visual impact** with doubled image heights (600px desktop, 500px mobile) for greater presence
 
 #### 2. Nature's Healing Embrace
 - **Simplified content** explaining the human-nature connection in accessible terms
-- **Evidence-based benefits** presented in understandable language
-- **Practical examples** of how nature affects mental well-being
+- **Evidence-based benefits** presented in understandable language without psychological jargon
+- **Practical examples** of how nature affects mental well-being in everyday situations
+- **Consistent background styling** matching the articles section for visual cohesion
 
 #### 3. The Psychology of Natural Connection
 - **Dark theme section** for visual variety and content hierarchy
@@ -135,17 +163,29 @@ Six themed article cards covering:
 ## Technologies Used
 
 - **HTML5**: Semantic markup for content structure and accessibility
-- **CSS3**: Custom styling with CSS variables for consistent theming
-- **Bootstrap 5.3.3**: Responsive grid system and component framework
+- **CSS3**: Custom styling with CSS variables for consistent theming and advanced responsive design
+- **Bootstrap 5.3.3**: Comprehensive responsive framework providing grid system, navigation components, and utility classes for rapid development
 - **Google Fonts**: Figtree and Montserrat font families for professional typography
-- **Font Awesome**: Icon integration for enhanced visual elements
-- **Git & GitHub**: Version control and repository hosting
+- **Font Awesome**: Icon integration for enhanced visual elements and social media links
+- **Git & GitHub**: Version control and repository hosting with GitHub Pages deployment
 
 ### Development Tools:
-- **Visual Studio Code**: Primary development environment
-- **Chrome DevTools**: Responsive testing and debugging
-- **CSS validation tools**: Code quality assurance
-- **HTML validation tools**: Markup standards compliance
+- **Visual Studio Code**: Primary development environment with extensions for productivity
+- **Chrome DevTools**: Responsive testing, debugging, and performance analysis
+- **CSS Validation Tools**: W3C CSS Validator for code quality assurance
+- **HTML Validation Tools**: W3C Markup Validator for standards compliance
+- **Responsive Design Testing**: Cross-browser and cross-device compatibility verification
+
+### Image Resources:
+- **Unsplash.com**: High-quality stock photography for nature and wellness imagery
+- **Freepik.com**: Vector graphics and design elements for enhanced visual appeal
+- **Placeholder.co**: Temporary placeholder images during development phase
+
+### Framework Benefits:
+- **Bootstrap Grid System**: Enables responsive 12-column layout structure
+- **Bootstrap Components**: Pre-built navbar, cards, and form elements for consistency
+- **Bootstrap Utilities**: Spacing, typography, and color utility classes for efficient styling
+- **Mobile-First Approach**: Bootstrap's responsive design philosophy ensuring optimal mobile experience
 
 ### AI Development Assistance:
 - **Claude AI (Anthropic)**: Content generation, accessibility improvements, and code optimization
@@ -178,11 +218,19 @@ Responsive design verified across device sizes:
 - Focus states for improved usability
 
 ### Performance Optimizations
-- **Sticky navigation** for improved user experience
-- **Optimized images** with proper alt attributes
-- **CSS variables** for consistent theming and maintainability
-- **Efficient selectors** for faster rendering
-- **Mobile-first responsive design** approach
+- **Sticky navigation** for improved user experience and constant access to site sections
+- **Optimized responsive images** with consistent sizing and proper alt attributes
+- **CSS variables** for consistent theming, maintainability, and efficient updates
+- **Efficient selectors** and media queries for faster rendering and optimal performance
+- **Mobile-first responsive design** approach ensuring optimal mobile experience
+- **Bootstrap framework integration** for reliable cross-browser compatibility and faster development
+
+### Visual Design Improvements
+- **Consistent image sizing**: All content section images now have uniform dimensions with responsive scaling
+- **Enhanced visual hierarchy**: Doubled image heights create stronger visual impact and improved content balance
+- **Cohesive color scheme**: Applied matching backgrounds to gallery and articles sections for unified appearance
+- **Circular gallery images**: Perfect circles with hover effects for modern, polished aesthetic
+- **Background imagery consistency**: Header and footer share nature photography with overlay effects
 
 ### Content Accessibility Improvements
 - **Simplified language**: Removed complex psychological jargon
@@ -219,9 +267,19 @@ The website is deployed using GitHub Pages and can be accessed at: [Live Site UR
 - Psychoanalytic perspectives on ecological psychology
 
 ### Images
-- Butterfly imagery: Custom photography and design elements
-- Background imagery: Nature photography for atmospheric effects
-- Placeholder images: Generated using Placehold.co for article cards
+- **Nature Photography**: High-quality imagery sourced from [Unsplash.com](https://unsplash.com/) for authentic natural environments
+- **Vector Graphics**: Design elements and icons from [Freepik.com](https://www.freepik.com/) for enhanced visual appeal
+- **Butterfly Imagery**: Custom photography and design elements for branding and symbolism
+- **Background Photography**: Tree and nature scenes for atmospheric header and footer effects
+- **Placeholder Images**: Generated using [Placehold.co](https://placehold.co/) for article cards during development
+- **Image Optimization**: All images optimized for web performance while maintaining visual quality
+
+### Technical Resources
+- **Bootstrap 5.3.3**: Complete responsive framework for layout, components, and utilities
+- **Google Fonts API**: Professional typography with Figtree and Montserrat font families
+- **Font Awesome**: Comprehensive icon library for social media and interactive elements
+- **CSS Grid and Flexbox**: Modern layout techniques for responsive design
+- **CSS Custom Properties**: Variable system for consistent theming and easy maintenance
 
 ### Inspiration
 - Japanese Shinrin-yoku (forest bathing) practices
@@ -230,13 +288,16 @@ The website is deployed using GitHub Pages and can be accessed at: [Live Site UR
 - Attention Restoration Theory by Kaplan & Kaplan
 
 ### Acknowledgments
-- **Bootstrap team** for the responsive framework foundation
-- **Google Fonts** for professional typography resources
-- **Code Institute** for educational foundation and project structure guidance
-- **Mental health professionals** who inspired the therapeutic approach
-- **Claude AI (Anthropic)** for development assistance, content generation, and accessibility improvements
-- **Google Gemini Pro** for design guidance and technical implementation support
-- **Open source community** for tools and resources that made this project possible
+- **Bootstrap Team**: For providing the comprehensive responsive framework that enabled rapid, professional development
+- **Google Fonts**: For professional typography resources that enhance readability and visual appeal
+- **Unsplash.com**: For providing high-quality, royalty-free nature photography that brings authenticity to the site
+- **Freepik.com**: For vector graphics and design elements that enhance the visual experience
+- **Code Institute**: For educational foundation, project structure guidance, and development best practices
+- **Mental Health Professionals**: Who inspired the therapeutic approach and content accuracy
+- **Claude AI (Anthropic)**: For development assistance, content generation, accessibility improvements, and code optimization
+- **Google Gemini Pro**: For design guidance, technical implementation support, and content refinement
+- **Open Source Community**: For tools, resources, and frameworks that made this project possible
+- **Web Accessibility Initiative (WAI)**: For guidelines that ensured inclusive design principles
 
 ### Development Notes
 This project represents a collaborative effort between human creativity and AI assistance, demonstrating how modern development tools can enhance accessibility and user experience while maintaining professional standards for mental health content.
