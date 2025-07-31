@@ -431,7 +431,11 @@ h2 {
 /* Footer Styles */
 
 .site-footer {
-    padding: 4rem 0 2rem 0;
+    margin: 2rem auto;
+    padding: 3rem 1.5rem;
+    max-width: 90%;
+    border: 1px solid var(--border-light-cyan);
+    border-radius: 1.5rem;
     background-color: var(--primary-color);
     /* Same as navbar background */
     font-family: var(--secondary-font);
