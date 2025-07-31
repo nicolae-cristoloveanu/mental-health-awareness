@@ -256,10 +256,20 @@ h2 {
 }
 
 .gallery-text-section .gallery-image {
-    border-radius: 12px;
+    border-radius: 50%;
+    /* Makes images fully circular */
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     margin-bottom: 1rem;
+    width: 250px;
+    height: 250px;
+    /* Equal width and height for perfect circles */
+    object-fit: cover;
+    /* Ensures image covers the circular area properly */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /* Centers the circular images */
 }
 
 .gallery-text-section .gallery-image:hover {
@@ -303,7 +313,7 @@ h2 {
     max-width: 90%;
     border: 1px solid var(--border-light-blue);
     border-radius: 1.5rem;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     font-family: var(--secondary-font);
 }
 
@@ -347,6 +357,10 @@ h2 {
 .text-content-section .decorative-image {
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    /* Ensures image covers the area while maintaining aspect ratio */
 }
 
 
@@ -391,6 +405,10 @@ h2 {
 .text-content-section-dark .decorative-image {
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    /* Ensures image covers the area while maintaining aspect ratio */
 }
 
 
@@ -611,6 +629,8 @@ h2 {
 @media (max-width: 767.98px) {
     .text-content-section .decorative-image {
         margin-top: 3rem;
+        height: 500px;
+        /* Smaller height for mobile - doubled from 250px */
     }
 
     .text-content-section .text-column {
@@ -619,10 +639,30 @@ h2 {
 
     .text-content-section-dark .decorative-image {
         margin-top: 3rem;
+        height: 500px;
+        /* Smaller height for mobile - doubled from 250px */
     }
 
     .text-content-section-dark .text-column {
         text-align: center;
+    }
+}
+
+/* Tablet sizing for images */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .text-content-section .decorative-image,
+    .text-content-section-dark .decorative-image {
+        height: 560px;
+        /* Medium height for tablets - doubled from 280px */
+    }
+}
+
+/* Large screen sizing for images */
+@media (min-width: 992px) {
+    .text-content-section .decorative-image,
+    .text-content-section-dark .decorative-image {
+        height: 640px;
+        /* Larger height for desktop - doubled from 320px */
     }
 }
 
