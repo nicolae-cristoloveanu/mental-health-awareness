@@ -115,6 +115,7 @@ h2 {
     height: 60px;
     border-radius: 50%;
     object-fit: cover;
+    padding: 0.5rem;
 
 }
 
@@ -146,6 +147,8 @@ h2 {
     border-color: var(--text-color);
 
 }
+
+
 
 /* Feature Section */
 
@@ -425,7 +428,87 @@ h2 {
     color: #ffffff;
 }
 
+/* Footer Styles */
 
+.site-footer {
+    padding: 4rem 0 2rem 0;
+    background-color: var(--primary-color);
+    /* Same as navbar background */
+    font-family: var(--secondary-font);
+    color: var(--text-color);
+    /* Same text color as navbar */
+}
+
+.site-footer h5 {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    color: var(--text-color);
+    /* Consistent with navbar text */
+    margin-bottom: 1.5rem;
+}
+
+.site-footer p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--text-color);
+    /* Consistent text color */
+}
+
+.site-footer .footer-links {
+    list-style: none;
+    padding-left: 0;
+}
+
+.site-footer .footer-links li {
+    margin-bottom: 0.75rem;
+}
+
+.site-footer .footer-links a {
+    color: var(--text-color);
+    /* Same as navbar links */
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.site-footer .footer-links a:hover {
+    color: var(--highlight-color);
+    /* Same hover color as navbar */
+}
+
+.site-footer .social-icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+    background-color: var(--highlight-color-light);
+    /* Using theme color */
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.site-footer .social-icons a:hover {
+    background-color: var(--highlight-color);
+    /* Consistent with navbar hover */
+    color: var(--primary-color);
+}
+
+.site-footer .copyright-text {
+    border-top: 1px solid var(--text-color);
+    /* Using theme color for border */
+    opacity: 0.3;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    text-align: center;
+    color: var(--highlight-color-light);
+    /* Subtle color for copyright */
+}
 
 /* Media queries */
 
