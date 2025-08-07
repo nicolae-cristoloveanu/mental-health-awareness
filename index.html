@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="assets/images/butterfly.jpg" sizes="32x32">
+    <link rel="icon" type="image/jpeg" href="assets/images/butterfly.jpg" sizes="16x16">
+    <link rel="apple-touch-icon" href="assets/images/butterfly.jpg">
 
     <title>Nature's Way | Home</title>
 
@@ -30,7 +34,7 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#home">Home</a>
@@ -370,7 +374,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <!-- MODIFIED: Removed `novalidate` and `needs-validation` to use browser defaults -->
-                        <form class="row g-3">
+                        <form class="row g-3" id="contactForm">
 
                             <!-- Name Field -->
                             <div class="col-md-6">
@@ -398,6 +402,32 @@
                                 <button class="btn btn-submit" type="submit">Send Message</button>
                             </div>
                         </form>
+                    </div>
+                </div>
+
+                <!-- Success Modal -->
+                <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header border-0 text-center">
+                                <h5 class="modal-title w-100" id="successModalLabel">
+                                    <i class="fas fa-leaf me-2"></i>
+                                    Your Message Has Been Sent
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <p class="lead mb-3">Thank you for reaching out to us.</p>
+                                <p>Like seeds carried by gentle winds, your message has found its way to us. Just as nature takes time to nurture growth, we'll carefully tend to your inquiry and respond thoughtfully.</p>
+                                <p class="mb-3">While you wait, remember that reaching out for support is a beautiful act of self-care—much like a flower turning toward the sun.</p>
+                                <div class="alert border-0">
+                                    <strong>Gentle Reminder:</strong> <span>If you're experiencing a mental health crisis, please don't hesitate to contact emergency services or call a mental health helpline immediately. Your well-being is precious, and immediate support is always available.</span>
+                                </div>
+                            </div>
+                            <div class="modal-footer border-0 justify-content-center">
+                                <button type="button" class="btn" data-bs-dismiss="modal">Continue Your Journey</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -485,6 +515,26 @@
 
     <!-- Custom Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/daab4f30d2.js" crossorigin="anonymous"></script>
+
+    <!-- Custom JavaScript for Contact Form -->
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault(); // Prevent actual form submission
+            
+            // Check if form is valid
+            if (this.checkValidity()) {
+                // Show success modal
+                var successModal = new bootstrap.Modal(document.getElementById('successModal'));
+                successModal.show();
+                
+                // Reset form after showing modal
+                this.reset();
+            } else {
+                // Let browser handle validation display
+                this.reportValidity();
+            }
+        });
+    </script>
 
 
 </body>

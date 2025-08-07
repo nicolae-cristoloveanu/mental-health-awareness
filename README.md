@@ -128,7 +128,6 @@ The color palette reflects the calming, natural theme of the website and was cur
 - **Simplified content** explaining the human-nature connection in accessible terms
 - **Evidence-based benefits** presented in understandable language without psychological jargon
 - **Practical examples** of how nature affects mental well-being in everyday situations
-- **Consistent background styling** matching the articles section for visual cohesion
 
 #### 3. The Psychology of Natural Connection
 - **Dark theme section** for visual variety and content hierarchy
